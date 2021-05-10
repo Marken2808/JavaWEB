@@ -10,7 +10,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String forecast(){
-        return "Sunny... Rainy... Cloudy";
+        return "old value";
     }
 
 }
